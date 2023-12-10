@@ -1,14 +1,20 @@
-
+:root{
+    --rosa: #d67979;
+    --lila: #afa5ee;
+    --verde: #7DE0C9;
+    --naranja: #FACA7F;
+    --blanco: #ffffff;
+    --negro: #1f1f1f;
+}
 .nav-link{
-    color: rgb(27, 25, 22);
     font-size: 1.1rem;
     font-weight: bold;
 }
-#contenedor{
+#ccontenedor{
     background-image: url("img/6.png") ;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
     margin: 0px;
     
@@ -21,4 +27,25 @@
   }
   #but {
     float: right;
+  }
+
+  #blog {
+    background-color: var(--rosa);
+    color: var(--blanco);
+  }
+  #catalogo{
+    background-color: var(--naranja);
+    color: var(--blanco);
+  }
+  #nosotros{
+    background-color: var(--lila);
+    color: var(--blanco);
+  }
+  #contacto{
+    background-color: var(--verde);
+    color: var(--blanco);
+  }
+
+  .logo{
+margin-right: 10px;
   }
