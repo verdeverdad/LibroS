@@ -21,6 +21,9 @@
 
 }
 
+.navbar-brand {
+    width: 70px;
+}
 .navbar .nav-item {
     margin-left: 0px;
     margin-right: 40px;
